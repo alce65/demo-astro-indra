@@ -10,5 +10,8 @@ export default defineConfig({
 	site: 'https://alce65.github.io',
   base: '/demo-astro-indra',
   outDir: './docs',
+  build: {
+    assets: 'assets'  // Cambia _astro por assets para GitHub Pages
+  },
 	integrations: [mdx(), sitemap()],
 });
