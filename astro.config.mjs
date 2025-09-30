@@ -7,6 +7,8 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-	site: 'https://example.com',
+	site: 'https://alce65.github.io',
+  base: '/demo-astro-indra',
+  outDir: './docs',
 	integrations: [mdx(), sitemap()],
 });
